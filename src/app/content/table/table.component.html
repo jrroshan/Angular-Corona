@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="responsive-table">
+        <table id="Table1">
+      <tr>
+        <th>Fav</th>
+        <th>Country, other</th>
+        <th>Total Cases</th>
+        <th>New Cases</th>
+        <th>Total Deaths</th>
+        <th>New Deaths</th>
+        <th>Total Recovered</th>
+        <th>Today Recovered</th>
+        <th>Active Cases</th>
+        <th>Serious, Critical</th>
+        <th>Total Tests</th>
+        <th>Total Population</th>
+      </tr>
+      <tr *ngFor="let cData of countryData ; let i=index">
+        <td id="hov">
+          {{i+1}}
+        </td>
+        <td><span class="flag"><img src="" alt=""></span>{{cData.country}}</td>
+        <td>{{cData.cases | number}}</td>
+        <td class="new-cas-bg">{{cData.todayCases | number}}</td>
+        <td>{{cData.deaths | number}}</td>
+        <td class="death-c-bg">{{cData.todayDeaths | number}}</td>
+        <td>{{cData.recovered | number}}</td>
+        <td class="rec-c-bg">{{cData.todayRecovered | number}}</td>
+        <td>{{cData.active | number}}</td>
+        <td>{{cData.critical | number}}</td>
+        <td>{{cData.tests | number}}</td>
+        <td>{{cData.population | number}}</td>
+      </tr>
+        </table>
+    </div>
+  </div>

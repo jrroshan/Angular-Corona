@@ -1,0 +1,89 @@
+/* table css starts from here */
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  font-weight: bold;
+}
+
+th {
+  color: white;
+  background-color: #000000;
+  position: sticky;
+  top:-1px;
+  box-shadow: 0 2px 2px -1px grey;
+}
+
+td#hov i:hover {
+  color: red;
+}
+
+i:focus:before{
+  content:"\f004" ;
+}
+
+td:nth-child(none){
+  background-color: white;
+}
+
+/* td:nth-child(3) {
+  background-color: #ffeeaa;
+  color: #000000;
+} */
+/* td:nth-child(5) {
+  background-color: red;
+} */
+.responsive-table{
+  height: 500px;
+  overflow: auto;
+}
+
+.responsive-table::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+   
+    background-color: #F5F5F5;
+}
+
+.responsive-table::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.responsive-table::-webkit-scrollbar-thumb
+{
+    
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color:  #333;
+}
+tr:nth-child(even) {
+  background-color: #19192c;
+}
+
+tr:nth-child(odd) {
+  background-color: #111120;
+}
+
+.death-c-bg{
+  background-color: #e7483b;
+}
+.rec-c-bg{
+  background-color: #1cc88a;
+}
+.new-cas-bg{
+  background-color: #f6c23e;
+}
