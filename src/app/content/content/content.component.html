@@ -1,0 +1,87 @@
+<!--  Banner section  -->
+
+<div class="main-banner ">
+    <div class="container">
+        <div class="caption">
+            <h3 class="title">Keep yourself at your home quarantine</h3>
+            <h3 class="title">Stay Home, Stay Safe.</h3>
+            <div class="button-groups d-none">
+                <a href="#" title="">COVID-19 Prevention</a>
+                <a href="#" title="">COVID-19 Symtoms</a>
+            </div>
+        </div>
+        <div class="case-number-section light-blue-bg">
+            <h1 class="title white-txt">COVID-19 CORONAVIRUS PANDEMIC</h1>
+            <div class="case-item">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="item covid-case">
+                            <h2 class="title">
+                                Total Cases
+                            </h2>
+                            <div class="num">
+                                <span>{{allData.cases | number}}</span>
+                            </div>
+                            <div class="icon-holder">
+                                <img src="../../../assets/images/blue-covid.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item death-case">
+                            <h2 class="title">
+                                Total Deaths
+                            </h2>
+                            <div class="num">
+                                <span>{{allData.deaths | number}}</span>
+                            </div>
+                            <div class="icon-holder">
+                                <img src="../../../assets/images/red-covid.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item recover-case">
+                            <h2 class="title">
+                                Total Recovered
+                            </h2>
+                            <div class="num">
+                                <span>{{allData.recovered | number}}</span>
+                            </div>
+                            <div class="icon-holder">
+                                <img src="../../../assets/images/green-covid.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item new-case">
+                            <h2 class="title">
+                                New Cases
+                            </h2>
+                            <div class="num">
+                                <span>{{allData.todayCases  | number}}</span>
+                            </div>
+                            <div class="icon-holder">
+                                <img src="../../../assets/images/yellow-covid.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--  End Banner section  -->
+
+<!--  End Covid case  section  -->
+<div class="covid-wld-case-section section-gap light-blue-bg">
+    <div class="container">
+        <app-table>
+        </app-table>
+    </div>
+</div>
+
+<!--  End Covid case  section  -->
+

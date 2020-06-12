@@ -1,0 +1,93 @@
+/* Banner section css */
+
+.main-banner{
+    min-height: calc(100vh - 98px);
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+
+}
+.main-banner .caption .title{
+    font-size: 48px;
+}
+.main-banner .caption > .title:nth-child(2){
+    color: #007bff;
+}
+.case-number-section{
+    padding: 40px;
+    border: 1px solid #0d6bff;
+}
+.case-number-section > .title{
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.case-item .item {
+    background-color: #111120;
+    padding: 20px;
+    height: 100%;
+}
+.case-item .item {
+    position: relative;
+}
+.case-item .item  .icon-holder{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 45px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.case-item .item .title{
+    font-size: 16px;
+    color: #939fb2;
+    margin-bottom: 10px;
+}
+.case-item .item  .num{
+    font-size: 24px;
+    font-weight: 600;
+}
+.case-item .item.covid-case .num{
+    color: #36b9cc;
+}
+.case-item .item.death-case .num{
+    color: #e74a3b;
+}
+.case-item .item.recover-case .num{
+    color: #1cc88a;
+}
+.case-item .item.new-case .num{
+    color: #f6c23e;
+}
+.case-item .item.covid-case{
+    border-bottom:2px solid #36b9cc;
+}
+.case-item .item.death-case{
+    border-bottom:2px solid #e74a3b;
+}
+.case-item .item.recover-case{
+    border-bottom:2px solid #1cc88a;
+}
+.case-item .item.new-case{
+    border-bottom:2px solid #f6c23e;
+}
+.main-banner .caption{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10vh;
+}
+
+.light-blue-bg{
+    background-color: #19192c;
+}
+
+.dark-blue-bg{
+    background-color: #111120;
+}
+/* End Banner section css */
