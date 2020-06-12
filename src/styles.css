@@ -1,1 +1,126 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,body{
+    min-height: 100%;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+}
+img{
+    max-width: 100%;
+}
+
+.img-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a,button,input[type="submit"]{
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+a,button,span{
+    display: inline-block;
+    outline: none;
+    line-height: 1;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+.list-none{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts links  css */
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'),
+    url('../src/assets/fonts/Roboto-Black.woff2') format('woff2'),
+    url('../src/assets/fonts/Roboto-Black.woff') format('woff'),
+    url('../src/assets/fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+    url('../src/assets/fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../src/assets/fonts/Roboto-Medium.woff') format('woff'),
+    url('../src/assets/fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+    url('../src/assets/fonts/Roboto-Light.woff2') format('woff2'),
+    url('../src/assets/fonts/Roboto-Light.woff') format('woff'),
+    url('../src/assets/fonts/Roboto-Light.svg#Roboto-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'),
+    url('../src/assets/fonts/Roboto-Thin.woff2') format('woff2'),
+    url('../src/assets/fonts/Roboto-Thin.woff') format('woff'),
+    url('../src/assets/fonts/Roboto-Thin.svg#Roboto-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+    url('../src/assets/fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../src/assets/fonts/Roboto-Bold.woff') format('woff'),
+    url('../src/assets/fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+    url('../src/assets/fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../src/assets/fonts/Roboto-Regular.woff') format('woff'),
+    url('../src/assets/fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.light-blue-bg{
+    background-color: #19192c;
+}
+.dark-blue-bg{
+    background-color: #111120;
+}
+.white-bg{
+    background-color: #ffffff;
+}
+.light-blue-txt{
+    color: #19192c;
+}
+.dark-blue-txt{
+    color: #111120;
+}
+.white-txt{
+    color: #ffffff;
+}
+
+
+.section-gap{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* End Fonts links  css */
+
