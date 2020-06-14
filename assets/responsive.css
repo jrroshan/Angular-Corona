@@ -1,0 +1,133 @@
+
+
+@media screen and (min-width: 991px) {
+
+}
+@media screen and (max-width: 991px) {
+    .case-item > .row > div {
+        margin-top: 15px;
+    }
+    .case-item .item {
+        padding: 20px 60px 20px 20px;
+    }
+}
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (min-width: 768px) {
+    .hamburger-menu,
+    .overlay,
+    .menu-close{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    
+    .main-banner .caption .title {
+        font-size: 28px;
+    }
+    .body.nav-active{
+        overflow:hidden;
+    }
+
+    .main-banner{
+        padding: 40px 0;
+    }
+    .site-header .logo img {
+        width: 110px;
+    }
+    .main-banner .caption {
+        margin-bottom: 30px;
+    }
+    .site-header .nav{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -300px;
+        background: #19192c;
+        width: 250px;
+        z-index: 9;
+        padding: 40px 0;
+        transition: all 0.3s linear;
+    }
+    .nav-active .site-header .nav{
+        right: 0;
+    }
+    .menu-close{
+        position: absolute;
+        top: 0;
+        right: 100%;
+        background: #36b9cc;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 40px;
+
+    }
+    .primary-menu{
+        margin: 0;
+    }
+    .primary-menu li{
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+        border-top: 1px solid #161623;
+    }
+    .primary-menu > li:last-child{
+        border-bottom: 1px solid #161623;
+    }
+    .primary-menu li a{
+        display: block;
+        padding: 20px;
+    }
+    .primary-menu li a:hover {
+        color: #fff;
+        background: #ed3c43;
+    }
+    .overlay{
+        position: fixed;
+    }
+
+    .overlay {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        top: 0;
+        height: 100vh;
+        background: #00000066;
+        visibility: hidden;
+        -webkit-transition: visibility 0.4s ease-in-out;
+        -o-transition: visibility 0.4s ease-in-out;
+        transition: visibility 0.4s ease-in-out;
+    }
+    .nav-active .overlay {
+         visibility: visible;
+     }
+
+}
+@media screen and (max-width: 575px) {
+    .case-number-section{
+        padding: 20px;
+    }
+    .case-number-section > .title {
+        margin-bottom: 15px;
+    }
+    .hamburger-menu span svg {
+
+         width: 32px;
+
+     }
+
+}
+@media screen and (max-width: 420px) {
+
+}
